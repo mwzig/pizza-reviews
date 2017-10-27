@@ -13,17 +13,17 @@ public class ReviewRepository {
 
 	public ReviewRepository() {
 
-		Review rev1 = new Review(1L, "Digiorno Rising Crust Pizza", "Frozen Pizza", "../images/Digiorno.png",
+		Review rev1 = new Review(1L, "Digiorno Rising Crust Pizza", "../images/Digiorno.png", "Frozen Pizza",
 				"Self-rising crust has big, juicy toppings that are paired with a delicious signature sauce", "",
 				"http://www.digiorno.com", "10/27/2017", 3);
 
-		Review rev2 = new Review(2L, "Freschetta Naturally Rising Crust Pizza", "Frozen Pizza",
-				"../images/Frechetta.jpg",
+		Review rev2 = new Review(2L, "Freschetta Naturally Rising Crust Pizza", "../images/Freschetta.jpg",
+				"Frozen Pizza",
 				"The cheesier the better. Mozzarella, cheddar, provolone and parmesan make the 4-Cheese pizza a sure bet on any pizza night.",
-				"", "http://www.freschetta.com", "10/27/2017", 3);
+				"", "http://www.Freschetta.com", "10/27/2017", 3);
 
-		Review rev3 = new Review(2L, "Freschetta Naturally Rising Crust Pizza", "Frozen Pizza",
-				"../images/Frechetta.jpg",
+		Review rev3 = new Review(3L, "Freschetta Naturally Rising Crust Pizza", "../images/Freschetta.jpg",
+				"Frozen Pizza",
 				"The cheesier the better. Mozzarella, cheddar, provolone and parmesan make the 4-Cheese pizza a sure bet on any pizza night.",
 				"", "http://www.freschetta.com", "10/27/2017", 3);
 

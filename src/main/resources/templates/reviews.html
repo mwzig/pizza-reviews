@@ -13,11 +13,11 @@
 	
 	
 	 
-	<div th:each="review: ${reviews}">
-		<h2>
+	<ul th:each="review: ${reviews}">
+		<li>
 			<a th:href="@{/singleReview(id=${review.id})}" th:text="${review.title}"></a>
-		</h2>
-	</div>
+		</li>
+	</ul>
 
 
 </body>
