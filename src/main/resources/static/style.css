@@ -42,9 +42,15 @@ li a {
 	color: rgb(22,22,22);
 }
 
+/* the color when you hover is the color of pepperoni */
 a:hover {
-	color: rgb(232,144,132);
+	color: rgb(193, 68, 57);
 }
+
+li a:visited {
+	color: rgb(112, 112, 112);
+}
+
 
 #ratingStar {
 	height: 20px;

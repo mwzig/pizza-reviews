@@ -22,26 +22,26 @@
 
 		<h2 class="centerText italicText" th:text="${review.getTitle()}"></h2>
 
-		<h2 th:text="${review.content}"></h2>
+		<p th:text="${review.content}"></p>
 
-		<h2 th:text="'Category: ' + ${review.category}"></h2>
+		<p th:text="'Category: ' + ${review.category}"></p>
 
-		<h2 th:text="${review.address}"></h2>
+		<p th:text="${review.address}"></p>
 
-		<h2 th:if="${not #strings.isEmpty(review.address)}"></h2>
+		<p th:if="${not #strings.isEmpty(review.address)}"></p>
 
-		<h2 class="rating" th:text="'Rating: (out of 5) '"></h2>
+		<p class="rating" th:text="'Rating: (out of 5) '"></p>
 
 		<img class="rating" id="ratingStar"
 			th:each="i : ${#numbers.sequence( 1, review.rating)}"
 			src="images/smooth-star.jpg" alt="${review.rating}+' stars'" />
 
 		
-		<h2 th:text="'Review Date: ' + ${review.date}"></h2>
+		<p th:text="'Review Date: ' + ${review.date}"></p>
 
-	    <h2>
+	    <p>
 	    <a class="centerText" th:href="${review.website}">company website</a>
-	    </h2>
+	    </p>
 	    
 		<a class="centerText" href="http://localhost:8080/reviewList">Back to home</a>
 	</div>
