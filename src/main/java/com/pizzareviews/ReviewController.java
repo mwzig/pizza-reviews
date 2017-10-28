@@ -16,7 +16,7 @@ public class ReviewController {
 	@RequestMapping("/reviewList")
 	public String getAllCourses(Model model) {
 		model.addAttribute("reviews", repository.findAll());
-		return "reviews"; // the html page
+		return "reviews2"; // the html page
 	}
 
 	@RequestMapping("/singleReview")
