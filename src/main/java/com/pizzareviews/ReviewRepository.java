@@ -24,19 +24,20 @@ public class ReviewRepository {
 
 		Review rev3 = new Review(3L, "Benny's Pizza", "../images/Bennys.jpg", "Restaurant",
 				"The best. Always great, dine in or carry out.  Nice crust, tasty sauce, plenty of cheese and good toppings.",
-				"Marysville", "http://www.freschetta.com", "10/27/2017", 5);
+				"Marysville", "http://www.bennyspizza.com", "10/27/2017", 5);
 
-		Review rev4 = new Review(4L, "Dewey's Pizza", "../images/Freschetta.jpg", "Restaurant",
+		Review rev4 = new Review(4L, "Dewey's Pizza", "../images/Deweys.jpg", "Restaurant",
 				"Delicious pizza made from scratch.  Fast, friendly service. Great dine-in experience. (Carry-out has not been good).",
-				"Worthington", "http://www.freschetta.com", "10/27/2017", 5);
+				"Worthington", "http://www.deweyspizza.com", "10/27/2017", 5);
 
-		Review rev5 = new Review(5L, "Panzera's Pizza", "../images/Freschetta.jpg", "Carry-Out Only",
+		Review rev5 = new Review(5L, "Panzera's Pizza", "../images/Panzeras.jpg", "Carry-Out Only",
 				"Great neighborhood pizza maker - consistently delicious pizza.",
-				"near Riverside Drive & Fishinger Road, Arlington", "http://www.freschetta.com", "10/27/2017", 4);
+				"near Riverside Drive & Fishinger Road, Arlington", "http://uapanzeras-com.webnode.com", "10/27/2017",
+				4);
 
-		Review rev6 = new Review(6L, "Rotolo's Pizza", "../images/Freschetta.jpg", "Carry-Out Only",
+		Review rev6 = new Review(6L, "Rotolo's Pizza", "../images/Rotolos.jpg", "Carry-Out Only",
 				"No-frills branch of a family-owned chain offering pizza, subs & pasta to carry out.",
-				"Grandview - 5th Avenue", "http://www.freschetta.com", "10/27/2017", 4);
+				"Grandview - 5th Avenue", "http://www.rotolospizza.com/", "10/27/2017", 4);
 
 		reviews.put(rev1.getId(), rev1);
 		reviews.put(rev2.getId(), rev2);

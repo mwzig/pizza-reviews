@@ -4,17 +4,20 @@
 
 <head>
 <title>Pizza Reviews</title>
+<link rel = "stylesheet"
+   type = "text/css"
+   th:href = "style.css" />
 </head>
 
 <body>
-	<header>
-		<h1>Pizza Reviews</h1>
+	<header id="reviewsListHeader">
+		<h1>My Pizza Reviews</h1>
 	</header>
 	
 	
 	 
-	<ul th:each="review: ${reviews}">
-		<li>
+	<ul>
+		<li th:each="review: ${reviews}">
 			<a th:href="@{/singleReview(id=${review.id})}" th:text="${review.title}"></a>
 		</li>
 	</ul>

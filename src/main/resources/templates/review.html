@@ -3,10 +3,10 @@
 <html xmlns:th="http://www.thymeleaf.org">
 
 <head>
+
 <title>Pizza Review</title>
 
 <link rel="stylesheet" type="text/css" th:href="style.css" />
-
 
 </head>
 
@@ -26,9 +26,12 @@
 
 		<p th:text="'Category: ' + ${review.category}"></p>
 
-		<p th:text="${review.address}"></p>
+		<!--<p th:text="${review.address}"></p> -->
 
 		<p th:if="${not #strings.isEmpty(review.address)}"></p>
+		<div th:if="${not #strings.isEmpty(review.address)}">
+			<p th:text="'Location: ' + ${review.address}"></p>
+		</div>
 
 		<p class="rating" th:text="'Rating: (out of 5) '"></p>
 
@@ -36,14 +39,15 @@
 			th:each="i : ${#numbers.sequence( 1, review.rating)}"
 			src="images/smooth-star.jpg" alt="${review.rating}+' stars'" />
 
-		
+
 		<p th:text="'Review Date: ' + ${review.date}"></p>
 
-	    <p>
-	    <a class="centerText" th:href="${review.website}">company website</a>
-	    </p>
-	    
-		<a class="centerText" href="http://localhost:8080/reviewList">Back to home</a>
+		<p>
+			<a class="centerText" th:href="${review.website}">company website</a>
+		</p>
+
+		<a class="centerText" href="http://localhost:8080/reviewList">Back
+			to home</a>
 	</div>
 
 </body>

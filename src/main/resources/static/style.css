@@ -37,25 +37,24 @@ ul {
 	font-size: 1.5em;
 }
 
-li a {
-	text-decoration: none;
-	color: rgb(22,22,22);
-}
-
 /* the color when you hover is the color of pepperoni */
 a:hover {
 	color: rgb(193, 68, 57);
+}
+
+li a {
+	text-decoration: none;
+	color: rgb(22,22,22);
 }
 
 li a:visited {
 	color: rgb(112, 112, 112);
 }
 
-
-#ratingStar {
-	height: 20px;
-	width: 20px;
-	display: inline;
+img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto
 }
 
 .rating {
@@ -67,13 +66,6 @@ li a:visited {
 	width: 80%;
 	padding: 10px;
 }
-
-img {
-	display: block;
-	margin-left: auto;
-	margin-right: auto
-}
-
 .centerText {
 	text-align: center;
 	display: block;
@@ -82,4 +74,11 @@ img {
 .italicText {
 	font-style: italic;
 }
+
+#ratingStar {
+	height: 20px;
+	width: 20px;
+	display: inline;
+}
+
 }
