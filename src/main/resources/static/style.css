@@ -1,9 +1,9 @@
 	@import
-		url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
+	url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400');
 
 	#reviewsListHeader {
 		background-image:
-			url("http://www.digiorno.com/Content/Images/products/11198-menu.jpg");
+		url("http://www.digiorno.com/Content/Images/products/11198-menu.jpg");
 		background-size: 100%;
 		background-repeat: no-repeat;
 		background-position: center;
@@ -44,7 +44,7 @@
 
 	li a {
 		text-decoration: none;
-		color: rgb(22,22,22);
+		color: rgb(22, 22, 22);
 	}
 
 	li a:visited {
@@ -81,5 +81,4 @@
 		width: 20px;
 		display: inline;
 	}
-
-	}
+}
